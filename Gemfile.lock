@@ -384,7 +384,7 @@ DEPENDENCIES
   solid_cache
   solid_queue
   stimulus-rails
-  tailwindcss-rails (~> 4.2)
+  tailwindcss-rails (~> 4.x)
   tailwindcss-ruby (~> 4.1)
   thruster
   turbo-rails

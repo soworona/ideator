@@ -1,23 +1,10 @@
-module.exports = {
-  content: [
-    "./app/**/*.{html,erb,js}",
-    "./node_modules/flowbite/**/*.js" 
-  ],
-  plugins: [
-    require('flowbite/plugin') 
-  ],
-  theme: {
-    extend: {
-      fontFamily: {
-        'open-sans': ['"Open Sans"', 'sans-serif'],
-        'pacifico': ['"Pacifico"', 'sans-serif'],
-        'dosis': ['"Dosis"', 'sans-serif'],
-      },
-      colors: {
-        primary: {
-          500: '#337ab7', // Your custom color
-        },
-      },
-    },
-  },
+@import "tailwindcss";
+
+@theme{
+  --font-open-sans: Open-sans, sans-serif;
+  --font-pacifico: Pacifico, cursive;
+  --font-dosis: Dosis, sans-serif;
+  --color-primary-500: #337ab7;
 }
+
+

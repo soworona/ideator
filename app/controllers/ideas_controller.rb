@@ -8,6 +8,10 @@ class IdeasController < ApplicationController
         redirect_to root_path
     end
 
+    def edit
+        @ideas = ideas.find(params[:id])
+    end
+
     private 
     
         def ideas_params
