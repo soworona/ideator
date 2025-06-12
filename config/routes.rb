@@ -16,6 +16,6 @@ Rails.application.routes.draw do
   resources :ideas
 
   get 'about' => 'static_pages#about'
-  get 'random' =>'static_pages#random'
 
+  get 'random' =>'static_pages#random'
 end
