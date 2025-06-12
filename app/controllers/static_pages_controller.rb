@@ -3,5 +3,6 @@ class StaticPagesController < ApplicationController
     end
 
     def random
+          @random_idea = Idea.all.sample
     end
 end
