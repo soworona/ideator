@@ -68,6 +68,6 @@ end
 
 gem "tailwindcss-ruby", "~> 4.1"
 
-gem "tailwindcss-rails", "~> 4.x"
+gem "tailwindcss-rails", "~> 4.rc2"
 
 gem 'pagy', '~> 9.3' 
